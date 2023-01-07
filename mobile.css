@@ -1,0 +1,38 @@
+@media screen and (max-width:949px) {
+   section{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   section #scnd_section #img-2{
+       display: flex;
+        order: 2;}
+   section img{
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+   }
+
+   #register form , #sec_5 .faq_form form{
+       display: flex;
+       flex-direction: column;
+   }
+   #register form #gmail, #sec_5 .faq_form form #email{
+       margin-bottom: 0.5rem;
+       
+   }
+
+ 
+}  
+
+
+
+
+@media screen and (max-width:741px) {
+    footer div ul{
+        /* display: grid; */
+        grid-template-columns:  1fr 1fr 1fr ;
+        
+    }
+}
